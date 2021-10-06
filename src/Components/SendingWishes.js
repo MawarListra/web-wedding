@@ -5,15 +5,15 @@ import Card3 from '../Images/Group 923.png'
 import Card4 from '../Images/Group 922.png'
 
 function SendingWishes() {
-    const [cardSelected, setCardSelected] = useState('');
+    const [cardSelected, setCardSelected] = useState('1');
     useEffect(() => {
-        setCardSelected('1');
         console.log('first 1')
+        console.log(cardSelected);
     }, [])
     const handleCardChange = (e) => {
         const selected = e.target;
         setCardSelected(selected.value);
-        console.log(cardSelected);
+        // console.log(cardSelected);
     }
     return (
         <div className='flex md:w-full md:h-full justify-center items-center py-20'>

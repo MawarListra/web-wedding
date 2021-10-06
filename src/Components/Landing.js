@@ -3,9 +3,9 @@ import {React, useEffect, useState, Fragment, useRef} from 'react'
 import IconInv from '../Images/Rectangle 673.png'
 import Scroll from '../Images/Vector.png'
 import Song from '../Audio/Lagu Pernikahan Rohani - Kita Satu (Lyric Video).mp3'
-import Sound from 'react-sound'
+// import Sound from 'react-sound'
 import { Dialog, Transition } from '@headlessui/react'
-import {Howl} from 'howler';
+// import {Howl} from 'howler';
 import {Link} from 'react-scroll'
 
 // const audioClips = [
