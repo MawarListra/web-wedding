@@ -15,7 +15,7 @@ function CurchQuotes() {
                             <div className='flex w-20 border border-yellow-700 '></div>
                         </div>
                         <p className=' font-sans text-gray-300 py-2 text-xl'>Sebab pada awal dunia, Allah menjadikan mereka laki-laki dan perempuan, sebab itu laki-laki akan meninggalkan ayahnya dan ibunya dan bersatu dengan istrinya, sehingga keduanya itu menjadi satu daging. Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia.</p>
-                        <a className=' font-sans text-yellow-700 text-xl font-light'>( Markus 10:6-9 )</a>
+                        <p className=' font-sans text-yellow-700 text-xl font-light'>( Markus 10:6-9 )</p>
                     </div>
                 </div>
             </div>
