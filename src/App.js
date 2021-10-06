@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Landing from './Components/Landing';
 import CurchQuotes from './Components/CurchQuotes';
@@ -11,25 +11,9 @@ import SendingWishes from './Components/SendingWishes';
 import Wishes from './Components/Wishes';
 import Gallery from './Components/Gallery';
 import Footer from './Components/Footer';
-import { React, useState, useEffect } from 'react';
+import { React} from 'react';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  }
-  useEffect(() => {
-    const hideMenu = () => {
-      if(window.innerWidth > 768 && isOpen) {
-        setIsOpen(false)
-        console.log('i resized')
-      }
-    }
-    window.addEventListener('resize', hideMenu)
-    return ()=>{
-      window.removeEventListener('reisize', hideMenu)
-    }
-  }, [])
   return (
     <>
     <Landing />

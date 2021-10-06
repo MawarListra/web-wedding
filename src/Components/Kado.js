@@ -2,7 +2,8 @@ import {React, useState} from 'react'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 function Kado() {
-    const [value, setValue] = useState('0382146210');
+    const [value, setValue] = useState('');
+    setValue('0382146210')
     const [copied, setCopied] = useState(false);
     return (
         <div className='flex flex-col w-full h-full justify-center items-center py-8 px-24'>

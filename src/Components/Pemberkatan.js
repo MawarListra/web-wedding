@@ -1,5 +1,5 @@
 import React from 'react'
-import Gambar from '../Images/Rectangle 8.png'
+// import Gambar from '../Images/Rectangle 8.png'
 
 function Pemberkatan() {
     const handleOnClick = ()=>{

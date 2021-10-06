@@ -1,4 +1,4 @@
-import {React, useEffect, useState, Fragment, useRef} from 'react'
+import {React, useState, Fragment, useRef} from 'react'
 
 import IconInv from '../Images/Rectangle 673.png'
 import Scroll from '../Images/Vector.png'
@@ -21,7 +21,7 @@ function Landing() {
         <div className='flex flex-col w-screen h-screen bg-landing-image justify-center items-center'>\
         <audio src={Song} autoPlay loop muted></audio>
             <div className='flex w-full h-full justify-center items-center py-4 '>
-                <img src={IconInv}/>
+                <img src={IconInv} alt='image 1'/>
             </div>
             <div className='flex  flex-col lg:w-screen lg:h-full justify-center items-center text-white'>
                 <div className='flex flex-row w-auto h-auto space-x-8 justify-center items-center'>
@@ -58,7 +58,7 @@ function Landing() {
                 <h1 className='font-sans text-lg cursor-pointer'>Scroll</h1>
                 </Link>
                 <Link to='curchquotes' smooth={true} duration={1000}>
-                <img className='animate-bounce cursor-pointer' src={Scroll}></img>
+                <img className='animate-bounce cursor-pointer' src={Scroll} alt='cursor'></img>
                 </Link>
             </div>
             <Transition.Root show={open} as={Fragment}>

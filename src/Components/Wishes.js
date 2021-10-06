@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Card1 from '../Images/WishesCard 1.png'
 import Card2 from '../Images/WishesCard 2.png'
 import Card3 from '../Images/WishesCard 3.png'
 import Card4 from '../Images/WishesCard 4.png'
-import Carousel from 'react-elastic-carousel'
+// import Carousel from 'react-elastic-carousel'
 
 // import { Swiper, SwiperSlide } from 'swiper/react'
 // import 'swiper/swiper.scss'
@@ -48,19 +48,19 @@ function Wishes() {
                             <img src={Card2}></img>
                         </SwiperSlide> */}
                     <div>
-                        <img src={Card1}></img>
+                        <img src={Card1} alt='card 1'></img>
                     </div>
                     <div>
-                        <img src={Card2}></img>
+                        <img src={Card2} alt='card 2'></img>
                     </div>
                     <div>
-                        <img src={Card3}></img>
+                        <img src={Card3} alt='card 3'></img>
                     </div>
                     <div>
-                        <img src={Card4}></img>
+                        <img src={Card4} alt='card 4'></img>
                     </div>
                     <div>
-                        <img src={Card2}></img>
+                        <img src={Card2} alt='card 5'></img>
                     </div>
                     {/* </Swiper> */}
                 </div>

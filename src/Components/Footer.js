@@ -1,5 +1,5 @@
 import React from 'react'
-import FootImg from '../Images/Rectangle 30.png'
+// import FootImg from '../Images/Rectangle 30.png'
 
 function Footer() {
     return (

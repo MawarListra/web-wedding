@@ -15,29 +15,29 @@ function Protokol() {
                 <div className='md:flex flex-col md:w-full md:h-full py-2 px-8 justify-center items-center z-10'>
                     <div className='md:flex md:flex-row md:space-x-8 py-4'>
                         <div className='md:flex flex-col md:w-80 md:h-40 shadow-2xl rounded-xl justify-center items-center text-center space-y-2 bg-white'>
-                            <img src={Mask} width={72} height={45}></img>
+                            <img src={Mask} alt='image 1' width={72} height={45}></img>
                             <text className='font-sans text-sm text-yellow-700 items-center px-2'>Gunakan Selalu Masker Ganda</text>
                         </div>
                         <div className='md:flex flex-col md:w-80 md:h-40 shadow-2xl rounded-xl justify-center items-center text-center space-y-2 bg-white'>
-                            <img src={Distancing} width={38} height={45}></img>
+                            <img src={Distancing} alt='image 2' width={38} height={45}></img>
                             <text className='font-sans text-sm text-yellow-700 items-center px-2'>Menjaga Jarak Saat di Lokasi</text>
                         </div>
                         <div className='md:flex flex-col md:w-80 md:h-40 shadow-2xl rounded-xl justify-center items-center text-center space-y-2 bg-white'>
-                            <img src={Thermo} width={40} height={45}></img>
+                            <img src={Thermo} alt='image 3' width={40} height={45}></img>
                             <text className='font-sans text-sm text-yellow-700 items-center px-2'>Mengecek Suhu Sebelum Masuk ke Lokasi Acara</text>
                         </div>
                     </div>
                     <div className='md:flex flex-row md:space-x-8 py-4'>
                         <div className='md:flex flex-col md:w-80 md:h-40 shadow-2xl rounded-xl justify-center items-center text-center space-y-2 bg-white'>
-                            <img src={WashHand} width={50} height={45}></img>
+                            <img src={WashHand} alt='image 4' width={50} height={45}></img>
                             <text className='font-sans text-sm text-yellow-700 items-center px-2'>Mencuci Tangan Dengan Sabun dan Menggunakan Hand Sanitizer</text>
                         </div>
                         <div className='md:flex flex-col md:w-80 md:h-40 shadow-2xl rounded-xl justify-center items-center text-center space-y-2 bg-white'>
-                            <img src={Vaccinated} width={39} height={45}></img>
+                            <img src={Vaccinated} alt='image 5' width={39} height={45}></img>
                             <text className='font-sans text-sm text-yellow-700 items-center px-2'>Tidak Kontak Erat Dengan Pengidap Covid-19 2 Bulan Terakhir</text>
                         </div>
                         <div className='md:flex flex-col md:w-80 md:h-40 shadow-2xl rounded-xl justify-center items-center text-center space-y-2 bg-white'>
-                            <img src={NoGroup} width={38} height={45}></img>
+                            <img src={NoGroup} alt='image 6' width={38} height={45}></img>
                             <text className='font-sans text-sm text-yellow-700 items-center px-2'>Menghindari Kerumunan di Lokasi</text>
                         </div>
                     </div>

@@ -32,19 +32,19 @@ function SendingWishes() {
                     <div className='flex flex-row'>
                         <div className='flex flex-row justify-center'>
                             <input type='radio' value='1' onChange={handleCardChange} checked={cardSelected === '1'}/>
-                            <img src={Card1}></img>
+                            <img src={Card1} alt='card 1'></img>
                         </div>
                         <div className='flex flex-row justify-center'>
                             <input type='radio' value='2' onChange={handleCardChange} checked={cardSelected === '2'}/>
-                            <img src={Card2}></img>
+                            <img src={Card2} alt='card 2'></img>
                         </div>
                         <div className='flex flex-row justify-center'>
                             <input type='radio' value='3' onChange={handleCardChange} checked={cardSelected === '3'}/>
-                            <img src={Card3}></img>
+                            <img src={Card3} alt='card 3'></img>
                         </div>
                         <div className='flex flex-row justify-center'>
                             <input type='radio' value='4' onChange={handleCardChange} checked={cardSelected === '4'}/>
-                            <img src={Card4}></img>
+                            <img src={Card4} alt='card 4'></img>
                         </div>
                     </div>
                 </div>
