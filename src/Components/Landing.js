@@ -21,7 +21,7 @@ function Landing() {
         <div className='flex flex-col w-screen h-screen bg-landing-image justify-center items-center'>\
         <audio src={Song} autoPlay loop muted></audio>
             <div className='flex w-full h-full justify-center items-center py-4 '>
-                <img src={IconInv} alt='image 1'/>
+                <img src={IconInv} alt='Tanda'/>
             </div>
             <div className='flex  flex-col lg:w-screen lg:h-full justify-center items-center text-white'>
                 <div className='flex flex-row w-auto h-auto space-x-8 justify-center items-center'>

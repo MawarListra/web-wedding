@@ -8,7 +8,7 @@ function SendingWishes() {
     const [cardSelected, setCardSelected] = useState('1');
     useEffect(() => {
         console.log('first 1')
-        console.log(cardSelected);
+        // console.log(cardSelected);
     }, [])
     const handleCardChange = (e) => {
         const selected = e.target;

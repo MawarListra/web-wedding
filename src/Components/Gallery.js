@@ -14,26 +14,26 @@ function Gallery() {
                 <div className='flex flex-row w-auto h-auto py-8'>
                     <div className='flex flex-col w-auto h-auto space-y-2'>
                         <div>
-                            <img src={Gambar1} alt='image 1'></img>
+                            <img src={Gambar1} alt='card 1'></img>
                         </div>
                         <div>
-                            <img src={Gambar4} alt='image 2'></img>
+                            <img src={Gambar4} alt='card 2'></img>
                         </div>
                     </div>
                     <div className='flex flex-col w-auto h-auto space-y-2 ml-2 mr-2'>
                         <div>
-                            <img src={Gambar2} alt='image 3'></img>
+                            <img src={Gambar2} alt='card 3'></img>
                         </div>
                         <div>
-                            <img src={Gambar5} alt='image 4'></img>
+                            <img src={Gambar5} alt='card 4'></img>
                         </div>
                     </div>
                     <div className='flex flex-col w-auto h-auto space-y-2'>
                         <div>
-                            <img src={Gambar3} alt='image 5'></img>
+                            <img src={Gambar3} alt='card 5'></img>
                         </div>
                         <div>
-                            <img src={Gambar6} alt='image 6'></img>
+                            <img src={Gambar6} alt='card 6'></img>
                         </div>
                     </div>
                 </div>

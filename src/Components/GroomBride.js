@@ -11,7 +11,7 @@ function GroomBride() {
                 </div>
                 <div className='flex flex-row justify-center items-center space-x-24'>
                     <div className='md:w-96 md:h-72'>
-                        <img src={Gambar} alt='image'></img>
+                        <img src={Gambar} alt='groom bride'></img>
                     </div>
                     <div className='flex flex-col text-white'>
                         <text className='font-sans text-2xl font-bold'>Sara Permata Septiandani</text>
