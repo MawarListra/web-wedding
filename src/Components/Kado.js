@@ -4,8 +4,8 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 function Kado() {
     const [value, setValue] = useState('');
     setValue('0382146210')
-    const [copied, setCopied] = useState();
-    copied = false;
+    const [copied, setCopied] = useState(false);
+    // copied = false;
     return (
         <div className='flex flex-col w-full h-full justify-center items-center py-8 px-24'>
             <div className='flex flex-col w-auto h-auto py-8 px-32 justify-center items-center text-center'>
@@ -16,7 +16,7 @@ function Kado() {
                 <text className='font-sans text-lg text-white'>Kelvin Eka Pramudita</text>
                 <text className='font-sans text-lg text-white'>AC : 0382146210</text>
                 <text className='font-sans text-lg text-white'>Bank Central Asia (BCA)</text>
-                <CopyToClipboard text={value} onCopy={() => setCopied(true)}>
+                <CopyToClipboard text={value} onCopy={() => setCopied(!copied)}>
                     <button className='w-48 h-10 bg-white rounded-3xl text-sm text-yellow-700'>Salin Nomor Rekening</button>
                 </CopyToClipboard>
             </div>
