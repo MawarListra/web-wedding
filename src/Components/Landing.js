@@ -12,17 +12,6 @@ import {Link} from 'react-scroll'
 //     (sound: {Song})
 // ]
 function Landing() {
-    // soundPlay = (src) => {
-    //     const sound = new Howl ({
-    //         src,
-    //         html5:true
-    //     })
-    //     sound.play();
-    // }
-    useEffect(() => {
-        // sound.play();
-        // Howler.volume(1.0)
-    }, [])
     const [open, setOpen] = useState(false);
     const togglePopup = () => {
         setOpen(!open);
